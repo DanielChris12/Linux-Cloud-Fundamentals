@@ -49,12 +49,14 @@ Sudo yum install -y httpd \_
 ( this is the command to install apache web server).
 
 **3. Start the service status via command line**
+
 After installing any server on instances or even installing applications on our local system we need to start the application for it to function. Same goes for the web server installed on our ec2 instances we need to start the web server for it to run so i ran the following command given that apache is already installed successfully on the instance.
 
 _sudo systemctl start httpd_
 (If this is successful it means we have started the installed web server on our instance) of which after i did run the command, it was successful
 
 **4. Investigate the service status via command line**
+
 After I’ve successfully installed and started our web server, I need to check it's status to confirm whether or not it is running. We can do this by actually viewing the server using our IP address.
 
 That port 80 will have to be opened in order to be able to view the server in action using our IP address.
