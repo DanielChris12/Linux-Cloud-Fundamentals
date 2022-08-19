@@ -31,10 +31,13 @@ https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> f84c15b2b4ffd5d7887655b496cab784972fcd88
 **My LAB 2 Experience**
 
 
@@ -100,4 +103,8 @@ _az group delete_ (to delete a resource group)
 
 
 
+<<<<<<< HEAD
 (DISCLAIMER:I CONSULTED DIFFERENT ARTICLES TO COME UP WITH THIS CONTENT THAT AIDED MY UNDERSTANDING OF THE LAB WORK)
+=======
+(DISCLAIMER:I CONSULTED DIFFERENT ARTICLES TO COME UP WITH THIS CONTENT THAT AIDED MY UNDERSTANDING OF THE LAB WORK)
+>>>>>>> f84c15b2b4ffd5d7887655b496cab784972fcd88
