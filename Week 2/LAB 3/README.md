@@ -32,8 +32,6 @@ https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-plan-bootstrap.html
 
 
 
-<<<<<<< HEAD
-=======
 
 
 **My LAB 3 Experience (STEPS)**
