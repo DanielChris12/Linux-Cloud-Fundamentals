@@ -102,4 +102,16 @@ aws ec2 terminate-instances --instance-ids (instance id) - This is to terminate 
 We will have to manage our instance for various reasons, One being to help us lower cost or help from incuring some avoidable charges. For example when an instance is not in use we can stop for the main time instead of making it run which incur lots of charges for something not in use. We will want to run the management tasks such as deleting, starting, stopping, a VM. Using various command for various task.
 
 
+
+
+
+
+## Here are Some Screenshot
+
+![lb2 aws-](https://user-images.githubusercontent.com/105374941/186178638-6aa26659-f84c-4095-9fe2-ed14b9bc467a.png)
+
+
+![lb2 aws img](https://user-images.githubusercontent.com/105374941/186178680-1dc30f89-02fd-48a9-ad2a-7bf94454018f.png)
+
+
  
