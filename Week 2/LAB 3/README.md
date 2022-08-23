@@ -84,3 +84,11 @@ _sudo systemctl stop httpd _
 
 
 
+![Screenshot on Lab3(windows power shell)](https://user-images.githubusercontent.com/105374941/186179856-90745518-4cf0-48f2-9032-d0ebc8900a53.png)
+
+
+
+![screenshot on Lab3](https://user-images.githubusercontent.com/105374941/186180102-83eaf8bc-da8c-4997-882d-b003f0d8fcfd.png)
+
+
+
