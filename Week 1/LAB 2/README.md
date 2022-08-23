@@ -72,3 +72,59 @@ _az vm deallocate (to deallocate the vm)_
 _az vm start (to start up a vm that was stopped)_
 
 _az group delete (to delete a resource group)_
+
+
+
+
+![lb2 az 01](https://user-images.githubusercontent.com/105374941/186142347-052d1b94-b702-4a3c-ad35-ec89eeafd6ea.png)
+
+
+
+![lb2 az 02](https://user-images.githubusercontent.com/105374941/186142392-be3055bf-6cba-4f65-be55-85f776740110.png)
+
+
+
+![lb2 az 03](https://user-images.githubusercontent.com/105374941/186142427-d611ec38-b97d-49f1-a9ce-4dd16cb68d6f.png)
+
+
+
+
+![lb az 04](https://user-images.githubusercontent.com/105374941/186142509-ce62be89-570f-4951-8708-f5a7d5176634.png)
+
+
+
+
+![lb2 az 05](https://user-images.githubusercontent.com/105374941/186142566-f0303a54-20d3-4820-bfbc-b77c77ebc72c.png)
+
+
+
+
+![lb az 06](https://user-images.githubusercontent.com/105374941/186142609-1f1de8e3-368b-43de-9288-08f80ded78c1.png)
+
+
+
+![lb az 07](https://user-images.githubusercontent.com/105374941/186142666-c21b9e84-f315-4aeb-8aff-68b3410dc675.png)
+
+
+
+![lb az 08](https://user-images.githubusercontent.com/105374941/186142914-d541f9f2-ca42-43d6-890d-45ce129a28fe.png)
+
+
+
+
+![lb az 09](https://user-images.githubusercontent.com/105374941/186142969-5e7f7b3b-25f6-40f1-9468-670ec3abbf51.png)
+
+
+
+![lb2 az 10](https://user-images.githubusercontent.com/105374941/186143004-50351191-9bf1-4832-86ce-a4540c61eb7d.png)
+
+
+
+
+
+
+
+
+
+
+
