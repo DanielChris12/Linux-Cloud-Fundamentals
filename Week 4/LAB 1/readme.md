@@ -75,3 +75,8 @@ _aws ec2 attach-internet-gateway --vpc-id vpc-0e870cbd22377ea37 --internet-gatew
 ## Here are the screenshots below
 
 
+![labvpc1](https://user-images.githubusercontent.com/105374941/186181294-33b90be7-9a06-43ac-b693-83ae4e4c0c13.png)
+
+
+
+![labvpc2](https://user-images.githubusercontent.com/105374941/186181334-f1cdf730-b5fa-425a-b3f8-199abbce9f99.png)
