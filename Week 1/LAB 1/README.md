@@ -102,3 +102,28 @@ This installs the latest version of apache server on your VM since the VM is to 
 ## 7. View Web Server In Action
 
 To do this, I just need to go my VM and click the external IP address. It would redirect me to a URL which I would use to view my installed apache2 web page.
+
+
+
+![lb1 az 01](https://user-images.githubusercontent.com/105374941/186141345-091979ca-36d9-43d9-a7f8-17aab4e413e2.png)
+
+
+![lb1 az 02](https://user-images.githubusercontent.com/105374941/186141411-5fb1a65f-de82-42ee-bf76-357f19014668.png)
+
+
+![lb1 az 03](https://user-images.githubusercontent.com/105374941/186141443-119ceb56-aa16-4dc8-9fc2-b35c1651aa8a.png)
+
+
+![lb1 az 04](https://user-images.githubusercontent.com/105374941/186141492-7db04c91-2445-4d5f-b46c-6235865cbd50.png)
+
+
+![lb1 az 05](https://user-images.githubusercontent.com/105374941/186141532-39af860e-4d3e-4dc8-9347-6d8f9793cfb3.png)
+
+
+![lb1 az 06](https://user-images.githubusercontent.com/105374941/186141594-4a79ad6f-17bb-4855-b1e3-1962a8dd1db2.png)
+
+
+
+![ubuntu page](https://user-images.githubusercontent.com/105374941/186141703-3cb98162-00c0-4f54-9882-ed408b34733d.png)
+
+
