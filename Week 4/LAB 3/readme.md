@@ -20,6 +20,9 @@ Grading tip:  Screenshot major script outputs and upload with your step by step 
 
 
 
+
+
+
 ## My Lab 3 Experience
 
 
@@ -34,30 +37,31 @@ it is often referred to as stack because the platform has four layers
 I created an ec2 instance using the GUI and CLI and i ensured it configured my security group to allow SSH(port 22), HTTP(port 80) connnections ..
 Then i ssh it into the gitbash CLI to connect my instance with the command 
 
-    _$ ssh -i "lamp.pem" ec2-user@ec2-3-133-156-184.us-east-2.compute.amazonaws.com_
+    $ ssh -i "lamp.pem" ec2-user@ec2-3-133-156-184.us-east-2.compute.amazonaws.com
 
 Afterwards,To prepare THE LAMP server i ran various code below;
 
 **To ensure that all software packages are up to date on my instance with the command below**
-      _sudo yum update -y_
+
+      sudo yum update -y
 
 **To install the latest version of the LAMP MariaDB and PHP packages** 
 
-_sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2_
+sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2
 
 **To install the Apache web server, MariaDB, AND PHP software packages i used the yum install command below**
 
-    _sudo yum install -y httpd mariadb-server_
+    sudo yum install -y httpd mariadb-server
 
 **To start and enable the Apache web server**
 
-    _sudo systemctl start httpd_
+    sudo systemctl start httpd
 
-    _sudo systemctl enable httpd_
+    sudo systemctl enable httpd
 
 i equally ran this command to check whether the web server is enabled already   
 
-     _sudo systemctl is-enabled httpd_
+     sudo systemctl is-enabled httpd
 
 Furthermore, i ensured that the security rule allows inbound HTTP(port 80) connections which would have been done during the stage of launching the ec2 instance only checked to verify to see if the 
 port range -- 22
@@ -68,7 +72,7 @@ Tested the apache web server in my web browser, by using the public IP address o
 Meanwhile, Apache httpd serves files that are kept in a directory called Apache document root and the Amazon Linux Apache document root is  _/var/www/html_ which is owned by root 
 To allow the ec2-user account to manipulate files in this directory, i achieved this by modifying the ownership and permissio of the directory by running various commands below
 
-    _sudo usermod -a -G apache ec2-user_
+     sudo usermod -a -G apache ec2-user
 
     (To add user(i.e.my ec2-user) to the apache group)
 
@@ -76,13 +80,13 @@ To allow the ec2-user account to manipulate files in this directory, i achieved 
 
 To as well change the group owernership of var/www and its contents to the apache group with the command below 
 
-      _sudo chown -R ec2-user:apache /var/www_
+      sudo chown -R ec2-user:apache /var/www
 
 To add the group write permission and set the group ID on future subdirectories and recursively change the file permission with the command below 
    
-     _sudo chmod 2775 /var/www && find /var/www -type d -exec sudo chmod 2775 {} \;_
+     sudo chmod 2775 /var/www && find /var/www -type d -exec sudo chmod 2775 {} \;
 
-     _find /var/www -type f -exec sudo chmod 0664 {} \;_
+     find /var/www -type f -exec sudo chmod 0664 {} \;
 
 
 ## 2. Test your LAMP server
@@ -114,15 +118,16 @@ Lastly, i deleted the phpinfo.php file by the command below because it should no
 
 Achieved this by using the various commands below
 
-To start the MariaDB server , incase it was stopped after initial installation
+**To start the MariaDB server , incase it was stopped after initial installation
   
-         _sudo systemctl start mariadb_
+         sudo systemctl start mariadb
 
-Run mysql secure installation
+**Run mysql secure installation
   
       _sudo mysql_secure_installation_
 
 Afer i ran the command i received a prompt to type a password fo the root account -- procedures i followed to achieve that
+
     i. To type the current root password i pressed Enter
     ii. Type Y to set a password 
     iii. Type Y to remove the anonymous user accounts
