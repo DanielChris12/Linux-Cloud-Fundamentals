@@ -166,3 +166,44 @@ sudo systemctl status mariadb
 
 
 
+
+## Here Are the Screenshot
+
+![updt](https://user-images.githubusercontent.com/105374941/187797853-74a18902-912e-4e21-9fbd-ccd996c0e21c.png)
+
+
+![updt complete](https://user-images.githubusercontent.com/105374941/187797822-40b12007-7fa8-4231-9282-c07dec092582.png)
+
+![first](https://user-images.githubusercontent.com/105374941/187797923-64233df2-b4f0-4ec2-b1a3-9e202ebad7be.png)
+
+![secnd](https://user-images.githubusercontent.com/105374941/187797944-3bb04603-5690-4ab5-91b3-fddd2723fab2.png)
+
+![wk4 lb4](https://user-images.githubusercontent.com/105374941/187798276-68fccb28-1089-48ff-ad20-82f07e24de18.png)
+
+![wk4 lb4-01](https://user-images.githubusercontent.com/105374941/187798305-4be86ba8-53fa-47bf-997b-939b1b6fe567.png)
+
+![wk4 lb4-02](https://user-images.githubusercontent.com/105374941/187798361-646edd43-0c6a-47ac-a7a2-cfddb6c4a0f0.png)
+
+![wk4 lb4-03](https://user-images.githubusercontent.com/105374941/187798953-844995e8-6968-4097-b9bb-208bd07ca4bf.png)
+
+![wk4 lb-04](https://user-images.githubusercontent.com/105374941/187798989-3e0635a7-21e8-41a0-99b9-898e69fcd1a8.png)
+
+![wk4 lb-05](https://user-images.githubusercontent.com/105374941/187799049-2a5675f3-83ba-4cea-ab28-c7356b32e56b.png)
+
+![wk4 lb-06](https://user-images.githubusercontent.com/105374941/187799061-49a161a4-579d-418e-8640-a784026a701b.png)
+
+![wk4 lb-07](https://user-images.githubusercontent.com/105374941/187799097-4f098753-9fcf-44c8-982f-36e3ed4cb5be.png)
+
+![wk4 lb4-08](https://user-images.githubusercontent.com/105374941/187799130-211ae06a-ce8f-4ab8-8a38-3bfb42dced31.png)
+
+![wk4 lb4-09](https://user-images.githubusercontent.com/105374941/187799173-fd92189a-6237-491d-88f4-a01dc188adf2.png)
+
+![third ](https://user-images.githubusercontent.com/105374941/187797976-c3d8613b-facb-4a47-8628-0e6ed0b819e1.png)
+
+![fourth](https://user-images.githubusercontent.com/105374941/187798000-fa99c757-e7ec-4066-9485-d75c818361bc.png)
+
+![fifth](https://user-images.githubusercontent.com/105374941/187799248-2be10303-1305-4b7b-a8e7-114c829dd1a5.png)
+
+
+
+
