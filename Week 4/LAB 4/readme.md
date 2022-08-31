@@ -44,6 +44,7 @@ I started by launched an instance then ssh it to connect the instance CLI, when 
 _wget https://wordpress.org/latest.tar.gz_
 
 And i ran this command below to unzip and unarchive the installation package
+
          _tar -xzf latest.tar.gz_
 
 
@@ -75,13 +76,13 @@ Furthermore, i created my database(To be more descriptive and have a meaningful 
 
 i did all that with following command below
 
-   _CREATE DATABASE `wordpress-db`;_
+     CREATE DATABASE `wordpress-db`;
 
-   _GRANT ALL PRIVILEGES ON `wordpress-db`.* TO "wordpress-user"@"localhost";_
+    GRANT ALL PRIVILEGES ON `wordpress-db`.* TO "wordpress-user"@"localhost";
 
-    _FLUSH PRIVILEGES;_
+    FLUSH PRIVILEGES;
 
-     _exit_
+    exit
 
 
 ## 3. Create and edit the wp-config.php file
@@ -97,8 +98,11 @@ Afterwards, i had to edit the wp-config.php(i.e. the new configuration from the 
        _nano wordpress/wp-config.php_
 
 I got a feedback after running the command then edited the lines that defines the following
+
    ('DB_NAME', 'wordpress-db')
+
    ('DB_USER', 'wordpress-user')
+
    ('DB_PASSWORD', 'DANIEL')
 
 i edited the following above to the name i created in the previous step...
@@ -127,9 +131,13 @@ The PHP GD library enables you to modify images. I used the following command to
         sudo yum install php-gd
 
 i had permit the apache web server by running the following command -- sudo chown -R apache /var/www
+   
    sudo chgrp -R apache /var/www
+   
    sudo chmod 2775 /var/www
+   
    find /var/www -type d -exec sudo chmod 2775 {} \;
+   
    find /var/www -type f -exec sudo chmod 0644 {} \;
 
 Then i restarted the Apache web server to pick up the new group and permission
@@ -142,13 +150,16 @@ sudo systemctl enable httpd && sudo systemctl enable mariadb
 (To ensure that httpd and database service start at every system boot)
 
 sudo systemctl status mariadb
+
 (Verify that the database server is running)
 
  sudo systemctl start mariadb
+ 
  (If the database service is not running, start it)
 
  sudo systemctl status httpd
- (if the httpd service is not running, start it)
+
+(if the httpd service is not running, start it)
 
 
 ## 6. Create an AMI of this running instance.
